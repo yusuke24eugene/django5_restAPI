@@ -1,0 +1,44 @@
+# Byte-compiled Python files
+*.pyc
+__pycache__/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# SQLite database file
+*.sqlite3
+
+# Media and Static files (if served by a separate server in production)
+media/
+static_collected/ # If using collectstatic to a separate directory
+
+# Log files
+*.log
+
+# Local settings and environment variables
+local_settings.py
+.env
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp # Vim swap files
+*~ # Emacs backup files
+
+# Operating system specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Test coverage reports
+.coverage
+htmlcov/
+
+# Django migrations cache (if not committing migrations)
+# migrations/**/__pycache__/ # Only if you specifically choose not to commit migrations
+
+# Deployment-related files (e.g., compressed archives)
+*.tar.gz
+*.zip
